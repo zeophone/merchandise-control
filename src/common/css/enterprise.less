@@ -1,0 +1,80 @@
+@import "./base.less";
+
+.panelLeft {
+  padding: 0 18px;
+  background-color: #f4f6f8;
+  border-right: 1px solid #dedede;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.panelRight {
+  padding: 16px 30px;
+}
+
+
+.pagination {
+  float: right;
+  margin-top: 5px;
+}
+
+.title{
+  line-height: 50px;
+  font-size: 16px;
+  border-bottom: 1px solid @color-black30;
+  button {
+    margin-left: 5px;
+  }
+  a {
+    color: @color-black0;
+  }
+
+}
+
+
+.titleLeft{
+  display: inline-block;
+}
+.titleRight {
+  float: right;
+  margin-right: 10px;
+
+}
+
+
+.card {
+  margin-top: 20px;
+}
+.cardTitle{
+  font-size: 14px;
+}
+.cardBody{
+  width: 60%;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.form {
+  &:extend(.card);
+  margin: 20px 50px;
+
+}
+
+
+.tip{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tips {
+  color: #606266;
+  font-size: 14px;
+}
+
+.column-expand {
+  .el-form-item {width: 45%;};
+  label {
+    color: #99a9bf;
+  }
+}
